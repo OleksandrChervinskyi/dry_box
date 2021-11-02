@@ -1,0 +1,108 @@
+.decor_line {
+    width: 100%;
+    height: 12px;
+    background-color: #1b6a42;
+}
+
+.section {
+    padding: 20px 0 40px 0;
+}
+
+.section a {
+    color: #666;
+}
+
+.toolbar {
+    margin-bottom: 50px;
+}
+
+/*-----Login - Search-----*/
+.login_search {
+    text-transform: uppercase;
+    display: flex;
+}
+
+.login_search span {
+    margin-right: 5px;
+}
+
+.login_search a:hover {
+    color: #2a735e;
+    transition: 0.6s ease;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.search:focus-within {
+    border: 1px solid rgba(102, 102, 102, 0.5);
+    padding-left: 6px;
+    transition: 0.4s;
+}
+
+.search input::placeholder {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+}
+
+.search input {
+    border: none;
+    max-width: 120px;
+}
+
+/*-----Icons----- */
+.icons {
+    text-align: right;
+}
+
+.icons i {
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.icons i:hover {
+    color: #2a735e;
+    transition: 0.8s;
+}
+
+/*-----Cart-----*/
+.cart {
+    display: flex;
+    justify-content: right;
+}
+
+.cart p {
+    margin-bottom: 0;
+}
+
+.cart i {
+    margin-left: 3px;
+    font-size: 20px;
+}
+
+.cart i:hover {
+    color: #2a735e;
+    transition: 0.8s;
+}
+
+/*-----Title-----*/
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2.75em;
+    text-transform: uppercase;
+    letter-spacing: 13px;
+    margin-bottom: 15px;
+    color: #1b6a42;
+}
+
+.title p {
+    font-size: 1.2em;
+}
+
+
