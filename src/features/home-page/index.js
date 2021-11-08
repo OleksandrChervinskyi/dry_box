@@ -5,6 +5,7 @@ import {AddPictures} from "./add-pictures";
 import {BestSellers} from "./best-sellers";
 import {DescribeText} from "./describe-text";
 import {Advantages} from "./advantages";
+import {Reviews} from "./reviews";
 
 export const HomePage = () => {
 
@@ -17,6 +18,7 @@ export const HomePage = () => {
             <BestSellers/>
             <DescribeText/>
             <Advantages/>
+            <Reviews/>
         </>
     )
 }

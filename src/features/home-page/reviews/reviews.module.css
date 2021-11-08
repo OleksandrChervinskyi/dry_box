@@ -1,0 +1,29 @@
+.section {
+    padding-bottom: 120px;
+}
+
+.section h2 {
+    font-size: 2.7rem;
+    margin-bottom: 42px;
+}
+
+.one_review {
+
+}
+
+.one_review img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.one_review h3 {
+    margin-bottom: 25px;
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .one_review {
+        margin-bottom: 80px;
+    }
+}
