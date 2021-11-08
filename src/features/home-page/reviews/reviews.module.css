@@ -7,13 +7,23 @@
     margin-bottom: 42px;
 }
 
-.one_review {
-
+.section h2:hover {
+    color: #658538;
+    transition: 0.5s;
 }
+
+/*.one_review {*/
+
+/*}*/
 
 .one_review img {
     max-width: 100%;
     margin-bottom: 20px;
+}
+
+.one_review:hover {
+    transform: scale(0.96);
+    transition: .3s ease-in-out;
 }
 
 .one_review h3 {
