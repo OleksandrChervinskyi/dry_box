@@ -6,11 +6,11 @@
     position: relative;
     box-sizing: border-box;
     height: 100%;
+    transition: 0.7s ease-in-out;
 }
 
 .image_wrap:hover {
-    transform: translateY(-8px);
-    transition: 1s;
+    transform: scale(1.05)
 }
 
 .image_wrap img {

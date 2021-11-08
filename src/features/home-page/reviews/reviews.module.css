@@ -5,25 +5,25 @@
 .section h2 {
     font-size: 2.7rem;
     margin-bottom: 42px;
+    transition: 0.5s;
 }
 
 .section h2:hover {
     color: #658538;
-    transition: 0.5s;
 }
 
-/*.one_review {*/
-
-/*}*/
+.one_review {
+    transition: 0.3s ease-in-out;
+}
 
 .one_review img {
     max-width: 100%;
     margin-bottom: 20px;
+
 }
 
 .one_review:hover {
     transform: scale(0.96);
-    transition: .3s ease-in-out;
 }
 
 .one_review h3 {
