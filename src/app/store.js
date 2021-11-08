@@ -3,6 +3,8 @@ import headerSlice from "../features/header/headerSlice";
 import offerTextSlice from '../features/home-page/offer-text/offer-textSlice'
 import carouselSlice from '../features/home-page/carousel/carouselSlice'
 import addPicturesSlice from '../features/home-page/add-pictures/add-picturesSlice'
+import bestsellersSlice from '../features/home-page/best-sellers/best-sellerSlice'
+import describeTextSlice from '../features/home-page/describe-text/describe-textSlice'
 
 
 export const store = configureStore({
@@ -12,6 +14,8 @@ export const store = configureStore({
             carousel: carouselSlice,
             offerText: offerTextSlice,
             addPictures: addPicturesSlice,
+            bestSellers: bestsellersSlice,
+            describeText: describeTextSlice,
         })
     }
 })

@@ -2,7 +2,7 @@
     padding-bottom: 85px;
 }
 
-img {
+.section img {
     height: 500px;
     object-fit: cover;
 }
