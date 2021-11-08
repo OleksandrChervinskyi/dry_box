@@ -5,7 +5,7 @@
 }
 
 .section {
-    padding: 20px 0 50px 0;
+    padding: 20px 0 20px 0;
 }
 
 .section a {
@@ -105,4 +105,20 @@
     font-size: 1.2em;
 }
 
+/*-----Nav-----*/
+.extra_nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 230px;
+}
+
+.extra_nav a {
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.extra_nav a:hover {
+    color: #1b6a42;
+    transition: 0.5s;
+}
 

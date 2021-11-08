@@ -61,12 +61,26 @@ export const Header = () => {
                     <Row>
                         <Col>
                             <div className={styles.title}>
-                                <h1>
-                                    {site_name}
-                                </h1>
+                                <Link to={'/main'}>
+                                    <h1>
+                                        {site_name}
+                                    </h1>
+                                </Link>
                                 <p>
                                     {site_motto}
                                 </p>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <div className={styles.extra_nav}>
+                                <Link to={'/about'}>
+                                    About
+                                </Link>
+                                <Link to={'/all-products'}>
+                                    All products
+                                </Link>
                             </div>
                         </Col>
                     </Row>

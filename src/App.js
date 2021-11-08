@@ -1,13 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from "react-router-dom";
-import {HomePage} from "./features/home-page";
+import {Routes} from "./router/routes";
 
 function App() {
     return (
         <BrowserRouter>
             <div className={'App'}>
-                <HomePage/>
+                <Routes/>
             </div>
         </BrowserRouter>
 

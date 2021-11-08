@@ -1,5 +1,5 @@
 .section {
-    padding-bottom: 110px;
+    padding-bottom: 200px;
 }
 
 .image_wrap {
@@ -9,8 +9,8 @@
 }
 
 .image_wrap:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transition: 0.6s;
+    transform: translateY(-8px);
+    transition: 1s;
 }
 
 .image_wrap img {
