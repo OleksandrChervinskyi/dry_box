@@ -5,6 +5,7 @@ import carouselSlice from '../features/home-page/carousel/carouselSlice'
 import addPicturesSlice from '../features/home-page/add-pictures/add-picturesSlice'
 import bestsellersSlice from '../features/home-page/best-sellers/best-sellerSlice'
 import describeTextSlice from '../features/home-page/describe-text/describe-textSlice'
+import advantagesSlice from "../features/home-page/advantages/advantagesSlice";
 
 
 export const store = configureStore({
@@ -16,6 +17,7 @@ export const store = configureStore({
             addPictures: addPicturesSlice,
             bestSellers: bestsellersSlice,
             describeText: describeTextSlice,
+            advantages: advantagesSlice,
         })
     }
 })
