@@ -1,5 +1,6 @@
 import {Header} from "../header";
-import {Carusel} from "./carusel";
+import {Carusel} from "./carousel";
+import {OfferText} from "./offer-text";
 
 export const HomePage = () => {
 
@@ -7,6 +8,7 @@ export const HomePage = () => {
         <>
             <Header/>
             <Carusel/>
+            <OfferText/>
         </>
     )
 }
