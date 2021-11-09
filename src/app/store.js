@@ -8,6 +8,7 @@ import describeTextSlice from '../features/home-page/describe-text/describe-text
 import advantagesSlice from "../features/home-page/advantages/advantagesSlice";
 import reviewsSlice from "../features/home-page/reviews/reviewsSlice";
 import popularBrandsSlice from '../features/home-page/popular-brands/popular-brandsSlice'
+import aboutPageSlice from '../features/about-page/about-pageSlice'
 
 
 export const store = configureStore({
@@ -22,6 +23,7 @@ export const store = configureStore({
             popularBrands: popularBrandsSlice,
             advantages: advantagesSlice,
             reviews: reviewsSlice,
-        })
+        }),
+        aboutPage: aboutPageSlice,
     }
 })
