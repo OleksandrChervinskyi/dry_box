@@ -1,12 +1,15 @@
 import {Redirect, Route, Switch} from "react-router-dom";
-import {AboutPage} from "../../features/about-page";
-import {HomePage} from "../../features/home-page";
+import {About} from "../../features/pages/about";
+import {HomePage} from "../../features/pages/home";
+import {RegisterPage} from "../../features/pages/register";
+import {LoginPage} from "../../features/pages/login";
 
 export const Routes = () => {
     return (
-
         <Switch>
-            <Route path={'/about'} component={AboutPage}/>
+            <Route path={'/register'} component={RegisterPage}/>
+            <Route path={'/login'} component={LoginPage}/>
+            <Route path={'/about'} component={About}/>
             <Route path={'/main'} component={HomePage} exact/>
             <Route path={'/'} exact>
                 <Redirect to="/main"/>

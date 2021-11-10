@@ -1,9 +1,9 @@
 import {useSelector} from "react-redux";
 import {Col, Container, Row} from "react-bootstrap";
 import styles from './reviews.module.css'
-import face1 from '../../../face1.png'
-import face2 from '../../../face2.png'
-import face3 from '../../../face3.png'
+import face1 from '../../../../face1.png'
+import face2 from '../../../../face2.png'
+import face3 from '../../../../face3.png'
 import {Link} from "react-router-dom";
 
 

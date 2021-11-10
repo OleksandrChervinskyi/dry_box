@@ -1,7 +1,7 @@
 import styles from './describe-text.module.css'
 import {useSelector} from "react-redux";
 import {Col, Container, Row} from "react-bootstrap";
-import box1 from '../../../box1.jpg'
+import box1 from '../../../../box1.jpg'
 
 
 export const DescribeText = () => {

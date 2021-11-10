@@ -1,9 +1,9 @@
 import {Col, Container, Row} from "react-bootstrap";
 import styles from './add-pictures.module.css'
-import nature1 from '../../../nature1.jpg'
-import nature2 from '../../../nature2.jpg'
-import nature3 from '../../../nature3.jpg'
-import nature4 from '../../../nature4.jpg'
+import nature1 from '../../../../nature1.jpg'
+import nature2 from '../../../../nature2.jpg'
+import nature3 from '../../../../nature3.jpg'
+import nature4 from '../../../../nature4.jpg'
 import {Link} from "react-router-dom";
 
 export const AddPictures = () => {

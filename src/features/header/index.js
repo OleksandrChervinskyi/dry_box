@@ -5,9 +5,7 @@ import {useSelector} from "react-redux";
 
 export const Header = () => {
 
-    const {header: {site_name}} = useSelector(store => store)
-    const {header: {site_motto}} = useSelector(store => store)
-    const {header: {total_cart}} = useSelector(store => store)
+    const {header: {site_name, site_motto, total_cart}} = useSelector(store => store)
 
 
     return (
@@ -25,7 +23,7 @@ export const Header = () => {
                                     </Link>
                                 </span>
                                     <span>
-                                    <Link to={'/login'}>
+                                    <Link to={'/register'}>
                                         Join /
                                     </Link>
                                 </span>

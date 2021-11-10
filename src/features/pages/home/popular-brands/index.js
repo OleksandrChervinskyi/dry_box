@@ -1,10 +1,10 @@
 import {useSelector} from "react-redux";
 import {Col, Container, Row} from "react-bootstrap";
 import styles from './popular-brands.module.css'
-import popularBrand1 from '../../../popularBrand1.jpg'
-import popularBrand2 from '../../../popularBrand2.jpg'
-import popularBrand3 from '../../../popularBrand3.jpg'
-import popularBrand4 from '../../../popularBrand4.jpg'
+import popularBrand1 from '../../../../popularBrand1.jpg'
+import popularBrand2 from '../../../../popularBrand2.jpg'
+import popularBrand3 from '../../../../popularBrand3.jpg'
+import popularBrand4 from '../../../../popularBrand4.jpg'
 import {Link} from "react-router-dom";
 
 export const PopularBrands = () => {

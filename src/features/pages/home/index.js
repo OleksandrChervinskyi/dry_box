@@ -1,4 +1,4 @@
-import {Header} from "../header";
+import {Header} from "../../header";
 import {Carusel} from "./carousel";
 import {OfferText} from "./offer-text";
 import {AddPictures} from "./add-pictures";

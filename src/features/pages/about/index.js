@@ -1,14 +1,14 @@
-import {Header} from "../header";
+import {Header} from "../../header";
 import {Col, Container, Row} from "react-bootstrap";
 import {useSelector} from "react-redux";
 import styles from './about.module.css'
 
-export const AboutPage = () => {
+export const About = () => {
     const {aboutPage: {title, body}} = useSelector(store => store)
     return (
         <>
             <Header/>
-            <section className={styles.section}>
+            <main className={styles.section}>
                 <Container>
                     <Row>
                         <Col>
@@ -25,7 +25,7 @@ export const AboutPage = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </main>
 
         </>
     )

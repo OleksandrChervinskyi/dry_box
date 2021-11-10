@@ -1,0 +1,79 @@
+.main {
+    padding: 50px 0;
+}
+
+.main h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.wrap {
+    max-width: 500px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.login_form label {
+    margin-bottom: 10px;
+}
+
+.login_form input {
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border: 1px solid rgba(57, 96, 68, 0.4);
+}
+
+.login_form a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.login_form a:hover {
+    color: #658538;
+}
+
+.singin_bt {
+    background: #658538;
+    color: #fff;
+    border: 2px solid #658538;
+    text-transform: uppercase;
+    transition: 0.5s;
+    width: 150px;
+    padding: 15px 0;
+    margin: 0 10px 10px 0;
+}
+
+.singin_bt:hover {
+    background: #fff;
+    color: #658538;
+}
+
+.forgot_bt {
+    background: none;
+    text-decoration: underline;
+    border: none;
+    text-align: left;
+    max-width: 300px;
+    padding: 0;
+    margin: -10px 0 24px;
+}
+
+.forgot_bt:hover {
+    color: #658538;
+}
+
+.login_form p span {
+    text-decoration: underline;
+}
+
+.login_form p span:hover {
+    color: #658538;
+    cursor: pointer;
+}
+

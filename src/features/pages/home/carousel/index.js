@@ -1,8 +1,8 @@
 import {Carousel, Container} from "react-bootstrap";
 import style from './carousel.module.css'
-import tea1 from "../../../tea1.jpg";
-import tea2 from "../../../tea2.jpg";
-import tea3 from "../../../tea3.jpeg";
+import tea1 from "../../../../tea1.jpg";
+import tea2 from "../../../../tea2.jpg";
+import tea3 from "../../../../tea3.jpeg";
 import {Link} from "react-router-dom";
 
 
