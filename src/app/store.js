@@ -11,6 +11,7 @@ import popularBrandsSlice from '../features/pages/home/popular-brands/popular-br
 import aboutPageSlice from '../features/pages/about/aboutSlice';
 import registerPageSlice from '../features/pages/register/registerSlice'
 import loginSlice from "../features/pages/login/loginSlice";
+import allProductsSlice from '../features/pages/all-products/all-productsSlice'
 
 export const store = configureStore({
     reducer: {
@@ -26,7 +27,8 @@ export const store = configureStore({
             reviews: reviewsSlice,
         }),
         aboutPage: aboutPageSlice,
-        registerPage : registerPageSlice,
-        loginPage : loginSlice
+        registerPage: registerPageSlice,
+        loginPage: loginSlice,
+        allProductsPage: allProductsSlice,
     }
 })
