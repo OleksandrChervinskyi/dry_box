@@ -18,10 +18,8 @@ export const AllProducts = () => {
     const {allProductsPage: {products, sortValue, filterValue, isLoading}} = useSelector(store => store)
     const countProducts = products.length
 
-    console.log(filterValue)
     return (
         <>
-            <Header/>
             <main className={styles.main}>
                 <Container>
                     <Row>
@@ -37,7 +35,7 @@ export const AllProducts = () => {
                                 <p>
                                     {countProducts} results
                                 </p>
-                                <div>
+                                <div className={styles.filter}>
                                     Filter by
                                     <select name="filter" id="1" value={filterValue} onChange={({target: {value}}) => {
                                         dispatch(changeFilterValue(value))

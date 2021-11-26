@@ -1,0 +1,30 @@
+.delivery {
+    margin-bottom: 50px;
+}
+
+.delivery h3, .shipping_address h3, .pickup_location h3 {
+    margin-bottom: 28px;
+}
+
+.delivery_input {
+    padding: 17px 0 17px 17px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px 5px 0 0;
+}
+
+.delivery_input i {
+    margin-right: 10px;
+}
+
+.delivery_input:last-child {
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.delivery_input label {
+    margin-left: 10px;
+}
+
+.radio_active {
+    color: #1b6a42;
+}

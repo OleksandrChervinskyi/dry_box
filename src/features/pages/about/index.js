@@ -7,7 +7,6 @@ export const About = () => {
     const {aboutPage: {title, body}} = useSelector(store => store)
     return (
         <>
-            <Header/>
             <main className={styles.section}>
                 <Container>
                     <Row>

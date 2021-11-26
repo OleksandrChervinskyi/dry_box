@@ -5,7 +5,7 @@ const AllProductsSlice = createSlice({
     initialState: {
         products: [],
         isLoading: false,
-        sortValue: 'alphabet',
+        sortValue: 'lowToHigh',
         filterValue: 'all',
     },
     reducers: {

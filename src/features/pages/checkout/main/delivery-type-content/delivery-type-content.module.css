@@ -1,0 +1,56 @@
+/*-----Ship-----*/
+.shipping_address {
+    margin-bottom: 20px;
+}
+
+.shipping_address input {
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 17px 0 17px 17px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+.first_inputs_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_inputs_wrap input {
+    max-width: 48%;
+}
+
+/*-----Pick Up-----*/
+.pickup_location {
+    margin-bottom: 20px;
+}
+
+.pickup_location p {
+    margin: 0;
+}
+
+.pickup_location i {
+    margin-right: 12px;
+}
+
+.pickup_location_content {
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+.pickup_location_content, .pickup_location_content_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pickup_location_content_title {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.pickup_location_content_text {
+    color: #737373;
+    font-size: 12px;
+}

@@ -1,0 +1,16 @@
+.contact_info {
+    margin-bottom: 40px;
+}
+
+.contact_info_text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.contact_info input {
+    width: 100%;
+    padding: 17px 0 17px 17px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}

@@ -10,7 +10,6 @@ export const LoginPage = () => {
     console.log(viewToggle)
     return (
         <>
-            <Header/>
             <main className={styles.main}>
                 {viewToggle ? <Standart/> : <Forgot/>}
             </main>

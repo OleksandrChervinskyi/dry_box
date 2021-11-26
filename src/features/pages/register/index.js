@@ -27,12 +27,12 @@ export const RegisterPage = () => {
 
         // Create json foor server
         const user = {
-            email : email,
-            password : password,
-            profile : {
-                name : name,
-                surname : surname,
-                birthday : birthday,
+            email: email,
+            password: password,
+            profile: {
+                name: name,
+                surname: surname,
+                birthday: birthday,
             }
         }
 
@@ -42,7 +42,6 @@ export const RegisterPage = () => {
 
     return (
         <>
-            <Header/>
             <main className={styles.main}>
                 <Container>
                     <Row>

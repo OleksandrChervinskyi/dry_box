@@ -9,9 +9,11 @@ import advantagesSlice from "../features/pages/home/advantages/advantagesSlice";
 import reviewsSlice from "../features/pages/home/reviews/reviewsSlice";
 import popularBrandsSlice from '../features/pages/home/popular-brands/popular-brandsSlice';
 import aboutPageSlice from '../features/pages/about/aboutSlice';
-import registerPageSlice from '../features/pages/register/registerSlice'
-import loginSlice from "../features/pages/login/loginSlice";
-import allProductsSlice from '../features/pages/all-products/all-productsSlice'
+import registerPageSlice from '../features/pages/register/registerSlice';
+import loginPageSlice from "../features/pages/login/loginSlice";
+import allProductsPageSlice from '../features/pages/all-products/all-productsSlice';
+import oneProductDetailsPageSlice from '../features/pages/one-product-details/one-product-detailsSlice';
+import cartPageSlice from "../features/pages/checkout/cartSlice";
 
 export const store = configureStore({
     reducer: {
@@ -28,7 +30,9 @@ export const store = configureStore({
         }),
         aboutPage: aboutPageSlice,
         registerPage: registerPageSlice,
-        loginPage: loginSlice,
-        allProductsPage: allProductsSlice,
+        loginPage: loginPageSlice,
+        allProductsPage: allProductsPageSlice,
+        oneProductDetailsPage: oneProductDetailsPageSlice,
+        cartPage : cartPageSlice,   
     }
 })

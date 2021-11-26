@@ -31,3 +31,25 @@
     outline: inherit;
 }
 
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .toolkit select {
+        width: 130px;
+    }
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .toolkit {
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .filter {
+        margin: 10px 0;
+    }
+}
+
