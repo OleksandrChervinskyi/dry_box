@@ -1,11 +1,14 @@
 import styles from './main.module.css';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {Ship} from "./delivery-type-content/ship";
 import {DeliveryMethod} from "./delivery-method";
 import {ContactInfo} from "./contact-info";
 import {PickUp} from "./delivery-type-content/pick-up";
+import {useDispatch} from "react-redux";
+import {setDeliveryType} from "./mainSlice";
 
 export const Main = () => {
+    const dispatch = useDispatch()
 
     const [inputsValue, setInputValue] = useState({
         email: '',
@@ -17,9 +20,12 @@ export const Main = () => {
         deliveryType: 'ship',
     })
 
+    useEffect(()=> {
+        dispatch(setDeliveryType(inputsValue.deliveryType))
+    }, [inputsValue.deliveryType])
+
     // Expect the delivery type - he is semi uncontrolled
     const inputsHandler = (e) => {
-        console.log(e.target)
         const {target: {name, value}} = e
         setInputValue({...inputsValue, [name]: value})
     }

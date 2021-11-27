@@ -1,7 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-const CartSlice = createSlice({
-    name: 'cartPage',
+const CheckoutSlice = createSlice({
+    name: 'checkoutPage',
     initialState: {
         selectedProducts: [],
     },
@@ -12,8 +12,8 @@ const CartSlice = createSlice({
     }
 })
 
-export const {addNewProductToCart} = CartSlice.actions
+export const {addNewProductToCart} = CheckoutSlice.actions
 
 //Fetch selected products
 
-export default CartSlice.reducer
+export default CheckoutSlice.reducer

@@ -3,7 +3,7 @@ import img from '../../../../tea1.jpg'
 import styles from './one-product.module.css'
 import {Link} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import {addNewProductToCart} from "../../checkout/cartSlice";
+import {addNewProductToCart} from "../../checkout/checkoutSlice";
 
 export const OneProduct = ({product}) => {
 

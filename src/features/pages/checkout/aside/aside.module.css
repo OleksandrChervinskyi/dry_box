@@ -1,0 +1,76 @@
+.main {
+    padding: 20px;
+}
+
+/*----- Small card-----*/
+.product_small_card {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_small_card p {
+    color: #323232;
+}
+
+.product_small_card img {
+    max-width: 62px;
+    max-height: 62px;
+    border-radius: 5px;
+}
+
+.small_card_title {
+    max-width: 65%
+}
+
+.img_wrap {
+    position: relative;
+}
+
+.img_wrap span {
+    position: absolute;
+    right: -11%;
+    top: -15%;
+    background-color: rgba(114, 114, 114, 0.9);
+    color: #fff;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*-----Subtotal-----*/
+.subtotal {
+    padding: 25px 0;
+    border-top: 1px solid rgba(175, 175, 175, 0.34);
+    border-bottom: 1px solid rgba(175, 175, 175, 0.34);
+}
+
+.subtotal_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal_wrap:first-child {
+    margin-bottom: 20px;
+}
+
+/*-----Total-----*/
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.total p {
+    font-size: 19px;
+}
+
+.total span {
+    margin-left: 15px;
+    font-size: 21px;
+    color: #222222;
+}
+

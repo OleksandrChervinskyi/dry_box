@@ -1,0 +1,9 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.background_grey {
+    background-color: #fafafa;
+    border-radius: 12px;
+}

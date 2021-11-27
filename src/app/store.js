@@ -13,7 +13,8 @@ import registerPageSlice from '../features/pages/register/registerSlice';
 import loginPageSlice from "../features/pages/login/loginSlice";
 import allProductsPageSlice from '../features/pages/all-products/all-productsSlice';
 import oneProductDetailsPageSlice from '../features/pages/one-product-details/one-product-detailsSlice';
-import cartPageSlice from "../features/pages/checkout/cartSlice";
+import asideSlice from "../features/pages/checkout/aside/asideSlice";
+import mainSlice from "../features/pages/checkout/main/mainSlice";
 
 export const store = configureStore({
     reducer: {
@@ -33,6 +34,9 @@ export const store = configureStore({
         loginPage: loginPageSlice,
         allProductsPage: allProductsPageSlice,
         oneProductDetailsPage: oneProductDetailsPageSlice,
-        cartPage : cartPageSlice,   
+        checkoutPage: combineReducers({
+            aside: asideSlice,
+            main: mainSlice,
+        }),
     }
 })
