@@ -4,6 +4,7 @@ import {Link, useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect, useState} from "react";
 import {getOneById} from "./one-product-detailsSlice";
+import {Counter} from "../../global-components/counter";
 
 export const OneProductDetails = (props) => {
     const dispatch = useDispatch()
@@ -13,7 +14,6 @@ export const OneProductDetails = (props) => {
     const {oneProductDetailsPage: {isLoading}} = useSelector(store => store)
 
     //Local state
-    const [localCounter, setLocalCounter] = useState(1)
     const [localProduct, setLocalProduct] = useState()
 
 
@@ -75,15 +75,7 @@ export const OneProductDetails = (props) => {
                                 <div className={styles.quantity}>
                                     <span>Quantity</span>
                                     <div className={styles.wrap}>
-                                        <div className={styles.counter}>
-                                            <i className="fa fa-minus" onClick={() => {
-                                                localCounter > 1 && setLocalCounter(localCounter - 1)
-                                            }}/>
-                                            {localCounter}
-                                            <i className="fa fa-plus" onClick={() => {
-                                                setLocalCounter(localCounter + 1)
-                                            }}/>
-                                        </div>
+                                        <Counter/>
                                         <button>
                                             Add to cart
                                         </button>

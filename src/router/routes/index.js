@@ -5,7 +5,8 @@ import {RegisterPage} from "../../features/pages/register";
 import {LoginPage} from "../../features/pages/login";
 import {AllProducts} from "../../features/pages/all-products";
 import {OneProductDetails} from "../../features/pages/one-product-details";
-import {Cart} from "../../features/pages/checkout";
+import {Cart} from "../../features/pages/cart";
+import {Checkout} from "../../features/pages/checkout";
 
 export const Routes = () => {
     return (
@@ -14,7 +15,8 @@ export const Routes = () => {
             <Route path={'/all-products'} component={AllProducts}/>
             <Route path={'/register'} component={RegisterPage}/>
             <Route path={'/login'} component={LoginPage}/>
-            <Route path={'/checkout'} component={Cart}/>
+            <Route path={'/cart'} component={Cart}/>
+            <Route path={'/checkout'} component={Checkout}/>
             <Route path={'/about'} component={About}/>
             <Route path={'/main'} component={HomePage} exact/>
             <Route path={'/'} exact>

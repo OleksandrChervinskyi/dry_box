@@ -1,0 +1,32 @@
+/*-----Wrap-----*/
+.card {
+    margin-top: 25px;
+}
+
+/*-----Title + img-----*/
+.title_img {
+    display: flex;
+}
+
+.title_img img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.title_img p {
+    margin: 15px 0 0 15px;
+}
+
+/*----Line-----*/
+.bottom_line {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dbebea;
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .bottom_line {
+        padding: 0;
+        border-bottom: none;
+    }
+}

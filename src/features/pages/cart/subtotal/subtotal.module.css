@@ -1,0 +1,41 @@
+.wrap {
+    padding: 48px 0;
+}
+
+.textarea textarea {
+    max-width: 100%;
+    max-height: 120px;
+    border: 1px solid #dfdfdf;
+    border-radius: 9px;
+    padding: 9px;
+}
+
+.textarea p {
+    margin-bottom: 10px;
+}
+
+/*-----Context-----*/
+.context {
+    text-align: end;
+}
+
+.context p {
+    margin-bottom: 20px;
+}
+
+.context button {
+    background: #658538;
+    color: #fff;
+    border: 2px solid #658538;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: opacity .2s, background-color 150ms, border-color 150ms;
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .context {
+        margin-top: 25px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,35 @@
+.title {
+    margin: 15px 0 47px;
+    text-transform: uppercase;
+}
+
+.descriptions {
+    text-transform: uppercase;
+    padding: 24px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.toolkit {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 30px;
+}
+
+.toolkit a {
+    color: #658538;
+}
+
+.toolkit button {
+    background: #658538;
+    color: #fff;
+    border: 2px solid #658538;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: opacity .2s, background-color 150ms, border-color 150ms;
+}
+
+.toolkit button:hover {
+    background: transparent;
+    color: #658538;
+}

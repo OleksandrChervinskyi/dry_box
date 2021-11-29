@@ -3,7 +3,7 @@ import styles from './checkout.module.css'
 import {Main} from "./main";
 import {Aside} from "./aside";
 
-export const Cart = () => {
+export const Checkout = () => {
 
 
     return (

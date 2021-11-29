@@ -49,7 +49,7 @@ export const Header = () => {
                                     <p>
                                         {total_cart}$
                                     </p>
-                                    <Link to={'/checkout'}>
+                                    <Link to={'/cart'}>
                                         <i className="fa fa-shopping-cart"/>
                                     </Link>
                                 </div>
